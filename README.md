@@ -15,6 +15,11 @@ about plugins, and how to use them, see
 These plugins are also available on
 [pub](https://pub.dev/flutter/packages).
 
+## fork后的修改点 
+1、fork自源库后，增加了setUseWideViewPort(true),以及在webview_flutter包内增加pubspec.yaml文件，以使起支持已git形式进行引用。
+2、若一个项目中有以git和pub两种形式依赖，则两种依赖方式会冲突。
+
+
 ## Issues
 
 Please file any issues, bugs, or feature requests in the [main flutter
